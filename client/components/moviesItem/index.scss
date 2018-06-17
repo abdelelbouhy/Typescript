@@ -1,0 +1,31 @@
+.movie_item_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  color: #262626;
+
+  &-title {
+    flex: 1 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  &-poster {
+    max-width: 300px;
+    width: 50%;
+
+    &-img {
+      width: 100%;
+      margin-right: 20px;
+    }
+  }
+
+  &-description {
+    margin-left: 20px;
+    padding: 0 20px;
+    width: 30%;
+
+    &-imdbID, &-type, &-year {
+      margin: 0 0 10px;
+    }
+  }
+}

@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies List Component should render List of movies 1`] = `
+<Connect(MoviesList)
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <MoviesList
+    moviesList={
+      Object {
+        "data": Array [
+          Object {
+            "Title": "Test Title1",
+          },
+          Object {
+            "Title": "Test Title2",
+          },
+        ],
+      }
+    }
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    storeSubscription={
+      Subscription {
+        "listeners": Object {
+          "clear": [Function],
+          "get": [Function],
+          "notify": [Function],
+          "subscribe": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": [Function],
+      }
+    }
+    updateMoviesList={[Function]}
+  >
+    <div
+      className="movies_list-wrapper"
+    >
+      <h1
+        className="movies_list-wrapper-heading"
+      >
+        Search Movies By
+      </h1>
+      <form
+        className="movies_list-wrapper-search_form"
+      >
+        <div
+          className="movies_list-wrapper-search_form-field"
+          key="title"
+        >
+          <label
+            className="movies_list-wrapper-search_form-label"
+            htmlFor="movies_list-wrapper-search_form-search"
+          >
+            Title
+            :
+          </label>
+          <input
+            className="movies_list-wrapper-search_form-search_input"
+            id="title"
+            name="s"
+            onChange={[Function]}
+            placeholder="Please enter a movie title"
+            type="text"
+            value=""
+          />
+        </div>
+      </form>
+      <div
+        className="movies_list-wrapper-movies_list"
+      >
+        <div
+          className="movies_list-wrapper-movies_list-movie"
+          key="undefined_0"
+        >
+          <Link
+            className="movies_list-wrapper-movies_list-movie-link"
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/moviesItem/Test Title1"
+          >
+            <a
+              className="movies_list-wrapper-movies_list-movie-link"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Test Title1
+            </a>
+          </Link>
+        </div>
+        <div
+          className="movies_list-wrapper-movies_list-movie"
+          key="undefined_1"
+        >
+          <Link
+            className="movies_list-wrapper-movies_list-movie-link"
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/moviesItem/Test Title2"
+          >
+            <a
+              className="movies_list-wrapper-movies_list-movie-link"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Test Title2
+            </a>
+          </Link>
+        </div>
+      </div>
+      <div
+        className="clear-fix"
+      />
+      <div
+        className="movies_list-wrapper-add_search_criteria"
+        onClick={[Function]}
+      >
+        Add Search Criteria
+      </div>
+      <div
+        className="clear-fix"
+      />
+    </div>
+  </MoviesList>
+</Connect(MoviesList)>
+`;

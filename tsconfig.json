@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./modules/**/*",
+    "./SCSS/*"
+  ],
+  "files": [
+    "app.tsx",
+    "redux/reducers/index.js"
+  ]
+}
